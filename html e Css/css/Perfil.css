@@ -1,6 +1,8 @@
 body{
     background-color: whitesmoke;
     font-family: verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .imgHeader{
@@ -12,8 +14,7 @@ body{
     
 }
 .imgHeader1{
-    width: 1024px;
-    height: 750px;
+    width: 100%;
     margin-bottom: 15px;
 }
 #title, .subtitle, .post_title{
@@ -51,4 +52,14 @@ a{
     margin:0px;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
+}
+
+.content_list{
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.content_list li a{
+    text-decoration: none;
 }
