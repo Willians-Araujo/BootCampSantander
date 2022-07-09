@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+    font-family: verdana;
 }
 
 .imgHeader{
@@ -19,6 +20,17 @@ body{
     color: black
 
 }
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}   
+
+a{
+    text-decoration: line-through;
+    color: rgb(46, 45, 45);
+}
+
 .post_title{
     font-size: 16px;
     font-style: italic;
@@ -38,4 +50,5 @@ body{
 .post_content{
     margin:0px;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
